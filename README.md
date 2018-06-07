@@ -1,2 +1,0 @@
-# zengarden
-Group Project
