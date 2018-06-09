@@ -1,5 +1,5 @@
 .page-wrapper {
-  width: 90%;
+  width: 100%;
   margin: auto; }
 
 .intro {
@@ -16,12 +16,46 @@ header {
 .preamble,
 .explanation,
 .participation,
-.benefits,
-.requirements {
+.benefits, .requirements {
   border: solid black;
   width: 70%;
   margin: auto;
   margin-bottom: 10px;
   margin-top: 10px; }
+
+.design-selection {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10em; }
+
+.design-archives {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100px; }
+
+nav ul li {
+  list-style-type: none;
+  border: solid black;
+  border-radius: 50%; }
+
+@media only screen and (max-width: 900px) {
+  .design-selection {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 10em; }
+
+  .design-archives {
+    position: static;
+    right: 0;
+    top: 0;
+    width: 100px; }
+
+  nav ul li {
+    list-style-type: none;
+    border: solid black;
+    border-radius: 50%; } }
 
 /*# sourceMappingURL=styles.css.map */
